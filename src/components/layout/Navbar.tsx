@@ -11,7 +11,7 @@ const Navbar = () => {
   const closeMenu = () => setIsMenuOpen(false);
 
   function handleRedirect() {
-    window.location.href = "https://form.jotform.com/251362942176055"; // Correct URL
+    window.location.href = "https://form.jotform.com/251402056920447"; // Correct URL
   }
 
   const navLinks = [

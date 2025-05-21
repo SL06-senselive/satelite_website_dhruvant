@@ -186,7 +186,7 @@ const Solutions = () => {
   ];
 
   function handleRedirect() {
-    window.location.href = "https://form.jotform.com/251362942176055";
+    window.location.href = "https://form.jotform.com/251402056920447";
   }
 
   return (

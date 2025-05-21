@@ -130,10 +130,11 @@ const Products = () => {
                     </div>
 
                     <div className="flex gap-4">
-                      <Button className="bg-senseLive-teal hover:bg-senseLive-darkTeal">
+                      {/* <Button className="bg-senseLive-teal hover:bg-senseLive-darkTeal">
                         Download Datasheet
-                      </Button>
-                      <a href="https://form.jotform.com/251362942176055" target="_blank" rel="noopener noreferrer">
+                      </Button> */}
+                      
+                      <a href="https://form.jotform.com/251402056920447" target="_blank" rel="noopener noreferrer">
                         <Button className="bg-senseLive-teal hover:bg-senseLive-darkTeal">
                           Request a Quote
                         </Button>

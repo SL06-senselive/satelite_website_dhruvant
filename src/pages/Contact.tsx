@@ -119,7 +119,7 @@ const Contact = () => {
     </p>
     <div className="bg-white rounded-xl shadow-xl overflow-hidden">
       <iframe
-        src="https://form.jotform.com/251362942176055"
+        src="https://form.jotform.com/251402056920447"
         className="w-full"
         style={{ height: "600px", border: "none" }}
         title="JotForm Contact Form"

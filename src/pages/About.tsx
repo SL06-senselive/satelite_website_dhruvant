@@ -41,8 +41,12 @@ const About = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden">
             <div className="md:flex">
               <div className="md:flex-shrink-0 bg-senseLive-teal/10 md:w-48 flex items-center justify-center p-6">
-                <div className="h-24 w-24 rounded-full bg-gradient-to-r from-senseLive-teal to-senseLive-blue flex items-center justify-center">
-                  <span className="text-3xl font-bold text-white">D</span>
+                <div className="h-44">
+                  <img
+                  src="src/assets/favicon.png"
+                   className="h-44 w-auto object-cover rounded-full"
+                  />
+                  
                 </div>
               </div>
               <div className="p-8">
@@ -57,7 +61,7 @@ const About = () => {
                 </p>
                 <p className="text-gray-700">
                   Today, Dhruvant has grown into a leading provider of satellite IoT solutions serving industries from
-                  maritime and agriculture to oil & gas and transportation. We've expanded our team to over 100 experts
+                  maritime and agriculture to oil & gas and transportation. We've expanded our team 
                   across engineering, product development, and customer success, all driven by our passion to connect the world.
                 </p>
               </div>
