@@ -1,5 +1,9 @@
 
 import Layout from "@/components/layout/Layout";
+import favicon from "@/assets/favicon.png";
+import abhijeetimg from "@/assets/person/abhijeet.png";
+import piyushimg from "@/assets/person/piyush.png";
+import mayurimg from "@/assets/person/mayur.png";
 
 const About = () => {
   return (
@@ -43,7 +47,8 @@ const About = () => {
               <div className="md:flex-shrink-0 bg-senseLive-teal/10 md:w-48 flex items-center justify-center p-6">
                 <div className="h-44">
                   <img
-                  src="src/assets/favicon.png"
+                  src={favicon}
+                  alt="Dhruvant Logo"
                    className="h-44 w-auto object-cover rounded-full"
                   />
                   
@@ -78,7 +83,7 @@ const About = () => {
               <div className="h-40 bg-gradient-to-r from-senseLive-blue to-senseLive-teal flex items-center justify-center">
                 <div className="h-24 w-24 rounded-full bg-white flex items-center justify-center overflow-hidden">
                   <img
-                    src="src/assets/person/abhijeet.png"
+                    src={abhijeetimg}
                     alt="AR Logo"
                     className="h-full w-full object-cover rounded-full"
                   />
@@ -100,7 +105,7 @@ A visionary leader driving global expansion and strategic growth. With deep expe
               <div className="h-40 bg-gradient-to-r from-senseLive-purple to-senseLive-blue flex items-center justify-center">
                 <div className="h-24 w-24 rounded-full bg-white flex items-center justify-center">
                     <img
-                    src="src\assets\person\piyush.png"
+                    src={piyushimg}
                     alt="PC Logo"
                     className="h-full w-full object-cover rounded-full"
                   />
@@ -120,7 +125,7 @@ A visionary leader driving global expansion and strategic growth. With deep expe
               <div className="h-40 bg-gradient-to-r from-senseLive-orange to-senseLive-purple flex items-center justify-center">
                 <div className="h-24 w-24 rounded-full bg-white flex items-center justify-center overflow-hidden">
                   <img
-                    src="src/assets/person/mayur.png"
+                    src={mayurimg}
                     alt="Mayur Dafare"
                     className="h-full w-full object-cover rounded-full"
                   />

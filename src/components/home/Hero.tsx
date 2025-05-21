@@ -1,13 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Satellite } from "lucide-react";
+import earthGif from '@/assets/earth_digital.gif';
+
 
 const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-senseLive-blue text-white py-16 md:py-24">
       {/* GIF Background */}
       <img
-        src="src/assets/earth_digital.gif" // <-- Replace with your GIF path
+        src={earthGif}// <-- Replace with your GIF path
         alt="Background Animation"
         className="absolute inset-0 w-full h-full object-cover z-0"
         draggable={false}

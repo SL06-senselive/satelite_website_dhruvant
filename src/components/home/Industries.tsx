@@ -1,47 +1,54 @@
 import { Link, useNavigate } from "react-router-dom"; // Add useNavigate
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import oilImg from "@/assets/oil.jpg";
+import maritimeImg from "@/assets/maritime.jpg";
+import energyImg from "@/assets/energy.jpg";
+import agricultureImg from "@/assets/agriculture.jpg";
+import logisticsImg from "@/assets/logistics.jpg";
+
 
 const Industries = () => {
   const navigate = useNavigate(); // Hook for programmatic navigation
 
-  const industries = [
-    {
-      title: "Oil & Gas",
-      image: "src/assets/oil.jpg",
-      description: "Pipeline monitoring, remote equipment diagnostics, and leak detection systems.",
-      link: "/solutions",
-      tabId: "oil-gas", // Add tabId to match Solutions component
-    },
-    {
-      title: "Maritime & Fisheries",
-      image: "src/assets/maritime.jpg",
-      description: "Vessel tracking, emergency alerts, and comprehensive fleet monitoring solutions.",
-      link: "/solutions",
-      tabId: "maritime",
-    },
-    {
-      title: "Utilities & Energy",
-      image: "src/assets/energy.jpg",
-      description: "Smart grid monitoring and renewable energy asset management systems.",
-      link: "/solutions",
-      tabId: "energy",
-    },
-    {
-      title: "Agriculture",
-      image: "src/assets/agriculture.jpg",
-      description: "Remote irrigation monitoring and sensor-based automation for improved yields.",
-      link: "/solutions",
-      tabId: "agriculture",
-    },
-    {
-      title: "Logistics & Fleet",
-      image: "src/assets/logistics.jpg",
-      description: "Asset tracking, vehicle telemetry, and predictive maintenance solutions.",
-      link: "/solutions",
-      tabId: "logistics",
-    },
-  ];
+ const industries = [
+  {
+    title: "Oil & Gas",
+    image: oilImg,
+    description: "Pipeline monitoring, remote equipment diagnostics, and leak detection systems.",
+    link: "/solutions",
+    tabId: "oil-gas",
+  },
+  {
+    title: "Maritime & Fisheries",
+    image: maritimeImg,
+    description: "Vessel tracking, emergency alerts, and comprehensive fleet monitoring solutions.",
+    link: "/solutions",
+    tabId: "maritime",
+  },
+  {
+    title: "Utilities & Energy",
+    image: energyImg,
+    description: "Smart grid monitoring and renewable energy asset management systems.",
+    link: "/solutions",
+    tabId: "energy",
+  },
+  {
+    title: "Agriculture",
+    image: agricultureImg,
+    description: "Remote irrigation monitoring and sensor-based automation for improved yields.",
+    link: "/solutions",
+    tabId: "agriculture",
+  },
+  {
+    title: "Logistics & Fleet",
+    image: logisticsImg,
+    description: "Asset tracking, vehicle telemetry, and predictive maintenance solutions.",
+    link: "/solutions",
+    tabId: "logistics",
+  },
+];
+
 
   const handleLearnMore = (tabId) => {
     // Navigate to Solutions page with the tabId as a query parameter

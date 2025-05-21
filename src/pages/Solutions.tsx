@@ -3,6 +3,17 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
+import oilRigIcon from "@/assets/oil-rig.png";
+import oilBanner from "@/assets/oil_2.jpg";
+import cruiseIcon from "@/assets/cruise.png";
+import maritimeBanner from "@/assets/maritime_2.png";
+import agricultureIcon from "@/assets/agriculture.png";
+import agricultureBanner from "@/assets/agriculture_2.png";
+import energyIcon from "@/assets/renewable-energy.png";
+import energyBanner from "@/assets/energy_2.jpg";
+import logisticsIcon from "@/assets/logistics.png";
+import logisticsBanner from "@/assets/logistics_2.jpg";
+
 const Solutions = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -31,8 +42,8 @@ const Solutions = () => {
     {
       id: "oil-gas",
       name: "Oil & Gas",
-      icon: "src/assets/oil-rig.png",
-      banner: "src/assets/oil_2.jpg",
+      icon: oilRigIcon,
+      banner: oilBanner,
       description: "Our satellite IoT solutions enable real-time monitoring and control of remote oil and gas assets, improving operational efficiency and safety while reducing downtime.",
       challenges: [
         "Remote pipeline monitoring in areas without cellular coverage",
@@ -62,8 +73,8 @@ const Solutions = () => {
     {
       id: "maritime",
       name: "Maritime & Fisheries",
-      icon: "src/assets/cruise.png",
-      banner: "src/assets/maritime_2.png",
+      icon: cruiseIcon,
+      banner: maritimeBanner,
       description: "Keep your maritime operations connected with reliable satellite IoT solutions that ensure vessel tracking, safety monitoring, and efficient fleet management across global waters.",
       challenges: [
         "Vessel tracking in remote ocean regions",
@@ -93,8 +104,8 @@ const Solutions = () => {
     {
       id: "agriculture",
       name: "Agriculture",
-      icon: "src/assets/agriculture.png",
-      banner: "src/assets/agriculture_2.png",
+      icon: agricultureIcon,
+      banner: agricultureBanner,
       description: "Transform agricultural operations with satellite IoT solutions that provide real-time insights on soil conditions, crop health, and irrigation systems across remote farmlands.",
       challenges: [
         "Remote farm monitoring without cellular coverage",
@@ -124,8 +135,8 @@ const Solutions = () => {
     {
       id: "energy",
       name: "Utilities & Energy",
-      icon: "src/assets/renewable-energy.png",
-      banner: "src/assets/energy_2.jpg",
+      icon: energyIcon,
+      banner: energyBanner,
       description: "Optimize utility and energy operations with satellite IoT solutions for remote infrastructure monitoring, grid management, and predictive maintenance of critical assets.",
       challenges: [
         "Remote power grid monitoring",
@@ -155,8 +166,8 @@ const Solutions = () => {
     {
       id: "logistics",
       name: "Logistics & Fleet",
-      icon: "src/assets/logistics.png",
-      banner: "src/assets/logistics_2.jpg",
+      icon: logisticsIcon,
+      banner:  logisticsBanner,
       description: "Enhance logistics and fleet operations with satellite IoT solutions that provide continuous tracking, route optimization, and vehicle diagnostics across all terrains and regions.",
       challenges: [
         "Fleet tracking in remote areas",

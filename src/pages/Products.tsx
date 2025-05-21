@@ -14,6 +14,8 @@ import {
   Cable
 } from "lucide-react";
 
+import visat_image from "@/assets/visat_2.png";
+
 import ProductSpecification from "@/components/ui/productspecification";
 
 const Products = () => {
@@ -23,7 +25,7 @@ const Products = () => {
       id: "viasat",
       title: "L-Band Dhruvant Transponder",
       subtitle: "Viasat Satellite Connectivity",
-      image: "src/assets/visat_2.png",
+      image: visat_image,
       description: "The L-Band Dhruvant Transponder with Viasat connectivity provides robust and reliable satellite communications for industrial IoT applications in challenging environments.",
       specs: [
         { name: "Network", value: "Viasat Satellite Connectivity" },
@@ -48,7 +50,7 @@ const Products = () => {
       id: "nbiot",
       title: "Dhruvant NB-IoT NTN Transponder",
       subtitle: "NB-IoT Over Satellite (3GPP Release 17)",
-      image: "src/assets/visat_2.png",
+      image: visat_image,
       description: "The Dhruvant D2D Transponder is compliant with GSMA 3GPP Release 17 standards, enabling NB-IoT over satellite for extended connectivity in remote applications.",
       specs: [
         { name: "Network", value: "NB-IoT Over Satellite (GSMA 3GPP Release 17)" },

@@ -10,6 +10,8 @@ import {
   Satellite,
   Navigation
 } from "lucide-react";
+import viasatImage from "@/assets/image_visat.png";
+
 
 const Products = () => {
   const products = [
@@ -22,7 +24,7 @@ const Products = () => {
         { icon: <Cpu className="h-4 w-4" />, text: "GNSS Support" },
         { icon: <Shield className="h-4 w-4" />, text: "Secure OTA Updates" }
       ],
-      image: "src/assets/image_visat.png",
+      image: viasatImage,
       link: "/products"
     },
     {
@@ -34,7 +36,7 @@ const Products = () => {
         { icon: <Zap className="h-4 w-4" />, text: "Low Power Consumption" },
         { icon: <Shield className="h-4 w-4" />, text: "End-to-End Encryption" }
       ],
-      image: "src/assets/image_visat.png",
+      image: viasatImage,
       link: "/products"
     }
   ];
