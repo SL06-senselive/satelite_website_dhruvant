@@ -124,7 +124,7 @@ const Industries = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button asChild className="bg-senseLive-teal hover:bg-senseLive-darkTeal">
+          <Button asChild className="bg-senseLive-teal text-white hover:bg-senseLive-darkTeal">
             <Link to="/solutions">View All Industries</Link>
           </Button>
         </div>

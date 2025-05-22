@@ -38,7 +38,7 @@ const CTA = () => {
               asChild
               size="lg"
               variant="outline"
-              className="border-senseLive-teal text-senseLive-teal hover:bg-senseLive-teal hover:text-white transition-all duration-300"
+              className="border-senseLive-teal bg-senseLive-teal hover:bg-senseLive-teal hover:text-white transition-all duration-300"
             >
               <Link to="/products">Explore Products</Link>
             </Button>

@@ -2,17 +2,20 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Satellite } from "lucide-react";
 import earthGif from '@/assets/earth_digital.gif';
+import earthVideo from '@/assets/earth_digital.mp4';
 
 
 const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-senseLive-blue text-white py-16 md:py-24">
       {/* GIF Background */}
-      <img
-        src={earthGif}// <-- Replace with your GIF path
-        alt="Background Animation"
+<video
+        src={earthVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
-        draggable={false}
       />
       {/* Gradient overlay: dark on left, bright on right */}
       <div

@@ -77,25 +77,27 @@ const ProductSpecification = () => {
                 {specData.map((row, index) => (
                   <tr
                     key={index}
-                    className={`${index % 2 === 0 ? "bg-gray-50" : "bg-white"} hover:bg-blue-50 transition-colors duration-150`}
+                    className={`${index % 2 === 0 ? "bg-gray-50" : "bg-white"} hover:bg-blue-50 transition-colors duration-150 text-black`}
                   >
-                    <td className="p-3 border border-gray-300 font-medium">{row.category}</td>
-                    <td className="p-3 border border-gray-300">
-  {row.details}
-  {row.category === "Compliance" && (
-    <>
-      <span className="text-red-600 font-semibold ml-1">*</span>
-      <span className="text-red-500 ml-2">(In progress)</span>
-    </>
-  )}
-    {(row.category === "Connectivity" || row.category === "Reliability" || row.category === "Enclosure") && (
-    <span className="text-red-600 font-semibold ml-1">*</span>
-  )}
-</td>
-
+                    <td className="p-3 border border-gray-300 font-medium text-black">{row.category}</td>
+                    <td className="p-3 border border-gray-300 text-black">
+                      {row.details}
+                      {row.category === "Compliance" && (
+                        <>
+                          <span className="text-red-600 font-semibold ml-1">*</span>
+                          <span className="text-red-500 ml-2">(In progress)</span>
+                        </>
+                      )}
+                      {(row.category === "Connectivity" ||
+                        row.category === "Reliability" ||
+                        row.category === "Enclosure") && (
+                          <span className="text-red-600 font-semibold ml-1">*</span>
+                        )}
+                    </td>
                   </tr>
                 ))}
               </tbody>
+
             </table>
           </div>
         </div>

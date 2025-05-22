@@ -137,7 +137,7 @@ const Products = () => {
                       </Button> */}
                       
                       <a href="https://form.jotform.com/251402056920447" target="_blank" rel="noopener noreferrer">
-                        <Button className="bg-senseLive-teal hover:bg-senseLive-darkTeal">
+                        <Button className="bg-senseLive-teal text-white hover:bg-senseLive-darkTeal">
                           Request a Quote
                         </Button>
                       </a>
@@ -164,50 +164,50 @@ const Products = () => {
       {/* Product Features */}
 
       {/* Certifications */}
-      <div className="py-8 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl font-bold mb-2 text-senseLive-blue">Compliance & Certifications</h2>
-            <p className="text-gray-600">
-              Our satellite IoT devices meet the highest industry standards to ensure reliability, security, and performance.
-            </p>
+   <div className="py-8 bg-white">
+  <div className="container mx-auto px-4">
+    <div className="text-center max-w-3xl mx-auto mb-12">
+      <h2 className="text-3xl font-bold mb-2 text-senseLive-blue">Compliance & Certifications</h2>
+      <p className="text-senseLive-spaceBlack">
+        Our satellite IoT devices meet the highest industry standards to ensure reliability, security, and performance.
+      </p>
+    </div>
+
+    <div className="flex justify-center">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-4xl">
+        <div className="flex flex-col items-center text-center p-6 border border-gray-200 rounded-lg bg-white text-senseLive-spaceBlack">
+          <div className="w-16 h-16 bg-senseLive-teal/50 rounded-full flex items-center justify-center mb-4">
+            <svg className="w-8 h-8 text-senseLive-darkTeal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
           </div>
+          <h3 className="font-semibold text-senseLive-blue mb-2">GSMA 3GPP Release 17</h3>
+          <p className="text-sm text-senseLive-lightBlue">NB-IoT over NTN Satellite</p>
+        </div>
 
-          <div className="flex justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-4xl">
-              <div className="flex flex-col items-center text-center p-6 border border-gray-200 rounded-lg">
-                <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mb-4">
-                  <svg className="w-8 h-8 text-senseLive-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-                  </svg>
-                </div>
-                <h3 className="font-semibold mb-2">GSMA 3GPP Release 17</h3>
-                <p className="text-sm text-gray-600">NB-IoT over NTN Satelite</p>
-              </div>
-
-              <div className="flex flex-col items-center text-center p-6 border border-gray-200 rounded-lg">
-                <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mb-4">
-                  <svg className="w-8 h-8 text-senseLive-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-                  </svg>
-                </div>
-                <h3 className="font-semibold mb-2">ViaSat </h3>
-                <p className="text-sm text-gray-600">Approval in Progress</p>
-              </div>
-
-              <div className="flex flex-col items-center text-center p-6 border border-gray-200 rounded-lg">
-                <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mb-4">
-                  <svg className="w-8 h-8 text-senseLive-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-                  </svg>
-                </div>
-                <h3 className="font-semibold mb-2">ISO 9001:2015</h3>
-                <p className="text-sm text-gray-600">Certified manufacturing</p>
-              </div>
-            </div>
+        <div className="flex flex-col items-center text-center p-6 border border-gray-200 rounded-lg bg-white text-senseLive-spaceBlack">
+          <div className="w-16 h-16 bg-senseLive-teal/50 rounded-full flex items-center justify-center mb-4">
+            <svg className="w-8 h-8 text-senseLive-darkTeal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
           </div>
+          <h3 className="font-semibold text-senseLive-blue mb-2">ViaSat</h3>
+          <p className="text-sm text-senseLive-lightBlue">Approval in Progress</p>
+        </div>
+
+        <div className="flex flex-col items-center text-center p-6 border border-gray-200 rounded-lg bg-white text-senseLive-spaceBlack">
+          <div className="w-16 h-16 bg-senseLive-teal/50 rounded-full flex items-center justify-center mb-4">
+            <svg className="w-8 h-8 text-senseLive-darkTeal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <h3 className="font-semibold text-senseLive-blue mb-2">ISO 9001:2015</h3>
+          <p className="text-sm text-senseLive-lightBlue">Certified Manufacturing</p>
         </div>
       </div>
+    </div>
+  </div>
+</div>
     </>
   );
 };

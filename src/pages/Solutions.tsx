@@ -89,7 +89,7 @@ const Solutions = () => {
         },
         {
           title: "Emergency Alert Systems",
-          description: "Satellite-based SOS and emergency communications for crew safety in remote waters."
+          description: "Satellite-based SOS and emergency defense systems for crew safety in remote waters."
         },
         {
           title: "Fuel Monitoring",
@@ -167,7 +167,7 @@ const Solutions = () => {
       id: "logistics",
       name: "Logistics & Fleet",
       icon: logisticsIcon,
-      banner:  logisticsBanner,
+      banner: logisticsBanner,
       description: "Enhance logistics and fleet operations with satellite IoT solutions that provide continuous tracking, route optimization, and vehicle diagnostics across all terrains and regions.",
       challenges: [
         "Fleet tracking in remote areas",
@@ -203,11 +203,11 @@ const Solutions = () => {
   return (
     <>
       {/* Solutions Hero */}
-      <div className="bg-senseLive-blue text-white py-16">
+      <div className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="text-4xl font-bold mb-6">Industry Solutions</h1>
-            <p className="text-xl text-gray-300">
+            <h1 className="text-4xl font-bold mb-6 text-senseLive-blue">Industry Solutions</h1>
+            <p className="text-xl text-senseLive-spaceBlack">
               Our satellite IoT solutions are tailored to meet the specific challenges of industries operating in remote and challenging environments.
             </p>
           </div>
@@ -224,7 +224,7 @@ const Solutions = () => {
                   <TabsTrigger
                     key={industry.id}
                     value={industry.id}
-                    className="flex items-center gap-2 py-3 px-5 data-[state=active]:bg-white"
+                    className="flex items-center gap-2 py-3 px-5 text-senseLive-spaceBlack data-[state=active]:bg-white data-[state=active]:text-senseLive-blue data-[state=active]:font-semibold"
                   >
                     <img src={industry.icon} alt={industry.name} className="w-6 h-6 object-contain" />
                     <span>{industry.name}</span>
@@ -248,7 +248,7 @@ const Solutions = () => {
                     <h2 className="text-2xl font-bold text-senseLive-blue mb-4">
                       {industry.name} Solutions
                     </h2>
-                    <p className="text-gray-600 mb-8">{industry.description}</p>
+                    <p className="text-senseLive-spaceBlack mb-8">{industry.description}</p>
                     
                     <div className="grid md:grid-cols-2 gap-8 mb-8">
                       <div>
@@ -256,10 +256,10 @@ const Solutions = () => {
                         <ul className="space-y-3">
                           {industry.challenges.map((challenge, index) => (
                             <li key={index} className="flex items-start">
-                              <svg className="w-5 h-5 text-senseLive-teal mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <svg className="w-5 h-5 text-senseLive-darkTeal mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                               </svg>
-                              <span className="text-gray-600">{challenge}</span>
+                              <span className="text-senseLive-spaceBlack">{challenge}</span>
                             </li>
                           ))}
                         </ul>
@@ -267,11 +267,11 @@ const Solutions = () => {
                       
                       <div className="bg-gray-50 rounded-lg p-6">
                         <h3 className="text-xl font-semibold mb-4 text-senseLive-blue">Our Approach</h3>
-                        <p className="text-gray-600 mb-4">
+                        <p className="text-senseLive-spaceBlack mb-4">
                           We deliver end-to-end satellite IoT solutions tailored specifically for the {industry.name.toLowerCase()} industry, addressing the unique operational challenges and regulatory requirements.
                         </p>
                         <Button 
-                          className="bg-senseLive-teal hover:bg-senseLive-darkTeal" 
+                          className="bg-senseLive-teal hover:bg-senseLive-darkTeal text-white" 
                           onClick={handleRedirect}
                         >
                           Request Consultation
@@ -284,7 +284,7 @@ const Solutions = () => {
                       {industry.solutions.map((solution, index) => (
                         <div key={index} className="border border-gray-200 rounded-lg p-6 hover:border-senseLive-teal hover:shadow-md transition-all">
                           <h4 className="font-semibold text-lg mb-3 text-senseLive-blue">{solution.title}</h4>
-                          <p className="text-sm text-gray-600">{solution.description}</p>
+                          <p className="text-sm text-senseLive-spaceBlack">{solution.description}</p>
                         </div>
                       ))}
                     </div>

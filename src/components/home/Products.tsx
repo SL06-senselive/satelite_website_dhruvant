@@ -123,7 +123,7 @@ const Products = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button asChild variant="outline" className="border-senseLive-teal text-senseLive-teal hover:bg-senseLive-teal/10">
+          <Button asChild variant="outline" className="border-senseLive-teal text-white bg-senseLive-teal hover:bg-senseLive-teal/10">
             <Link to="/products">View All Products</Link>
           </Button>
         </div>

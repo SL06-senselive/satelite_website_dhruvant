@@ -49,7 +49,7 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <Button 
+          <Button
             className="bg-senseLive-teal hover:bg-senseLive-darkTeal flex items-center gap-2 relative overflow-hidden group"
             onClick={handleRedirect} // Use handleRedirect instead of inline redirect
           >
@@ -77,7 +77,7 @@ const Navbar = () => {
               <div className="absolute top-20 right-6 w-2 h-2 rounded-full bg-senseLive-teal glow-dot"></div>
               <div className="absolute top-32 right-12 w-1 h-1 rounded-full bg-senseLive-orange glow-dot"></div>
               <div className="absolute bottom-20 left-6 w-2 h-2 rounded-full bg-senseLive-purple glow-dot"></div>
-              
+
               {navLinks.map((link, index) => (
                 <Link
                   key={link.name}
@@ -94,13 +94,14 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="h-px w-full bg-gradient-to-r from-senseLive-teal/50 to-transparent my-2"></div>
-              <Button 
-                className="bg-senseLive-teal hover:bg-senseLive-darkTeal mt-2 flex items-center gap-2"
-                onClick={handleRedirect}
-              >
-                <Rocket className="h-4 w-4" />
-                <span>Get Started</span>
-              </Button>
+             <Button
+  className="bg-senseLive-teal text-white hover:bg-senseLive-teal mt-2 flex items-center gap-2"
+  onClick={handleRedirect}
+>
+  <Rocket className="h-4 w-4 text-white" />
+  <span className="text-white">Get Started</span>
+</Button>
+
             </nav>
           </SheetContent>
         </Sheet>
