@@ -17,7 +17,7 @@ const Products = () => {
   const products = [
     {
       title: "L-Band Dhruvant Transponder",
-      network: "Viasat Satellite Connectivity",
+      network: "Viasat IoT Nano",
       band: "L-Band",
       features: [
         { icon: <Radio className="h-4 w-4" />, text: "10 kb Downlink" },

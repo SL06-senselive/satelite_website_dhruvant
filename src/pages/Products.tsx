@@ -24,11 +24,11 @@ const Products = () => {
     {
       id: "viasat",
       title: "L-Band Dhruvant Transponder",
-      subtitle: "Viasat Satellite Connectivity",
+      subtitle: "Viasat IoT Nano ",
       image: visat_image,
-      description: "The L-Band Dhruvant Transponder with Viasat connectivity provides robust and reliable satellite communications for industrial IoT applications in challenging environments.",
+      description: "The L-Band Dhruvant Transponder with Viasat IoT Nano  provides robust and reliable satellite communications for industrial IoT applications in challenging environments.",
       specs: [
-        { name: "Network", value: "Viasat Satellite Connectivity" },
+        { name: "Network", value: "Viasat IoT Nano " },
         { name: "Frequency Band", value: "L-Band" },
         { name: "Data Transmission", value: "Uplink: 6.2 kb / Downlink: 10 kb" },
         { name: "Power Supply", value: "12V DC" },
